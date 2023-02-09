@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+html{
+    font-family:'Nunito' ;
+    font-size: 12px;
+    font-weight: 600;
+}
+.container{
+    width: 100%;
+    height: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
