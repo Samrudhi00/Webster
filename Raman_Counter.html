@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Menu List</title>
     <link rel="stylesheet" href="style.css">
-   
+    <!-- <link rel="stylesheet" href="addtocart.js"> -->
+     <!-- <link href="AddToCart.html"> -->
 
-
+    <script src="https://kit.fontawesome.com/497e4c536f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/497e4c536f.css" crossorigin="anonymous">
+</head>
     
 </head>
 
@@ -25,6 +28,10 @@
                 <li><a href="AddToCart.html">My Cart</a></li>
             </ul>
         </nav>
+        <div class=" header">
+            <p class="logo">LOGO</p>
+            <div class="cart"><i class="fa-solid fa-cart-shopping"></i> <p id="count">0</p> </div>
+        </div>
     </header>
     <section>
         <div class="container">
@@ -36,8 +43,7 @@
                 <div class="item">
                     <img class="ima"src="narutoramen.jpg" alt="">
                     <div class="Menucontainer">
-                        <h1 class="infoM"> NarutoRamen
-                            5.0</h1>
+                        <h1 class="infoM" class="Name"> NarutoRamen 5.0</h1>
                         <p class="info">
                             
                         Chicken katsu is Japanese-style fried chicken. This is my family recipe 
@@ -46,11 +52,14 @@
                       
                     </div>
                     <div class="Money">
-                       <span class ="price"> <h3>1</h3>Rupee</span>
+                       <span class ="price"> <h3>1 Rupee</h3></span>
                     </div>
-                    <div></div>
-                      <button  id="pr{{i.id}}" class="btn btn-primary cart">Add To Cart</button>
-                    </div>
+                  
+                    
+                        <p>
+                        <button    class="btn btn-primary cart"  >Add To Cart</button>
+                    </p>
+                    
 
 
                 </div>
@@ -59,8 +68,7 @@
                 <div class="item">
                     <img class="ima"src="tonkotsuramen.jpg" alt="">
                     <div class="Menucontainer">
-                        <h1 class="infoM">Tonkotsu
-                            4.7</h1>
+                        <h1 class="infoM">Tonkotsu 4.7</h1>
                         <p class="info">
                         Chicken katsu is Japanese-style fried chicken. This is my family recipe 
                         and can also be used to make tonkatsu by using pork cutlets instead of chicken.
@@ -68,10 +76,10 @@
                       
                     </div>
                     <div class="Money">
-                        <span class ="price"> <h3>300</h3>Rupee</span>
+                        <span class ="price"> <h3>300 Rupee</h3></span>
                     </div>
-                    <div></div>
-                      <button  id="pr{{i.id}}" class="btn btn-primary cart">Add To Cart</button>
+                    <div>
+                      <button   class="btn btn-primary cart">Add To Cart</button>
                     </div>
                     
 
@@ -82,8 +90,7 @@
                 <div class="item">
                     <img class="ima"src="misoramen.jpg" alt="">
                     <div class="Menucontainer">
-                        <h1 class="infoM">Miso
-                            4.3</h1>
+                        <h1 class="infoM">Miso 4.3</h1>
                         <p class="info">
                         Chicken katsu is Japanese-style fried chicken. This is my family recipe 
                         and can also be used to make tonkatsu by using pork cutlets instead of chicken.
@@ -91,10 +98,10 @@
                       
                     </div>
                     <div class="Money">
-                        <span class ="price"> <h3>350</h3>Rupee</span>
+                        <span class ="price"> <h3>350 Rupee</h3></span>
                     </div>
-                    <div></div>
-                      <button  id="pr{{i.id}}" class="btn btn-primary cart">Add To Cart</button>
+                    <div>
+                      <button   class="btn btn-primary cart">Add To Cart</button>
                     </div>
                     
 
@@ -115,10 +122,10 @@
                       
                     </div>
                     <div class="Money">
-                        <span class ="price"> <h3>200</h3>Rupee</span>
+                        <span class ="price"> <h3>200 Rupee</h3></span>
                     </div>
                     <div>
-                      <button  id="pr{{i.id}}" class="btn btn-primary cart">Add To Cart</button>
+                      <button   class="btn btn-primary cart">Add To Cart</button>
                     </div>
                     
                     
@@ -138,10 +145,10 @@
                       
                     </div>
                     <div class="Money">
-                        <span class ="price"> <h3>200</h3>Rupee</span>
+                        <span class ="price"> <h3> 200 Rupee</h3></span>
                     </div>
-                    <div></div>
-                      <button  id="pr{{i.id}}" class="btn btn-primary cart">Add To Cart</button>
+                    <div>
+                      <button   class="btn btn-primary cart">Add To Cart</button>
                     </div>
                    
 
@@ -160,13 +167,12 @@
                       
                     </div>
                     <div class="Money">
-                        <span class ="price"> <h3>400</h3>Rupee</span>
+                        <span class ="price"> <h3>400 Rupee</h3></span>
                     </div>
-                    <div></div>
-                      <button  id="pr{{i.id}}" class="btn btn-primary cart">Add To Cart</button>
+                    <div>
+                      <button   class="btn btn-primary cart" href="AddToCart.html">Add To Cart</button>
                     </div>
                     
-
 
                 </div>
 
@@ -182,10 +188,10 @@
                       
                     </div>
                     <div class="Money">
-                        <span class ="price"> <h3>250</h3>Rupee</span>
+                        <span class ="price"> <h3>250 Rupee</h3></span>
                     </div>
                     <div>
-                        <button  id="pr{{i.id}}" class="btn btn-primary cart">Add To Cart</button>
+                        <button  class="btn btn-primary cart">Add To Cart</button>
                       </div>
                     
 
@@ -204,10 +210,10 @@
                       
                     </div>
                     <div class="Money">
-                        <span class ="price"> <h3>150</h3>Rupee</span>
+                        <span class ="price"> <h3>150 Rupee</h3></span>
                     </div>
                     <div>
-                        <button  id="pr{{i.id}}" class="btn btn-primary cart">Add To Cart</button>
+                        <button   class="btn btn-primary cart">Add To Cart</button>
                       </div>
                     
 
@@ -226,27 +232,26 @@
                       
                     </div>
                     <div class="Money">
-                        <span class ="price "> <h3>210</h3>Rupee</span>
+                        <span class ="price "> <h3>210 Rupee</h3></span>
                     </div>
                     <div>
-                        <button  id="pr{{i.id}}" class="btn btn-primary cart">Add To Cart</button>
+                        <button   class="btn btn-primary cart">Add To Cart</button>
                       </div>
                     
 
 
                 </div>
-
-                
-
-           
-
         </div>
     </section>
     
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  
 </body>
 </html>
+
+
+
+
+
 
 
 
